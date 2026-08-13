@@ -25,9 +25,6 @@ export const playlists = {
 
   lateNight: [],
   goldenHour: [],
-} satisfies Record<string, Track[]>;,
-  lateNight: [] as Track[],
-  goldenHour: [] as Track[],
 } satisfies Record<string, Track[]>;
 
 export type PlaylistKey = keyof typeof playlists;
