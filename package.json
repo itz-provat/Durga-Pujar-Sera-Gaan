@@ -1,11 +1,11 @@
 {
-  "name": "nostalgia-music-site",
+  "name": "Durga-Pujor-Sera-Gaan",
   "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
