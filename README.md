@@ -1,4 +1,4 @@
-# Nostalgia Music Site
+# Durga Pujor Sera Gaan
 
 Next.js App Router + TypeScript + Tailwind CSS v4 single-page nostalgia player.
 
