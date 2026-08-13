@@ -4,7 +4,7 @@ import { playlists } from "../lib/tracks";
 
 export default function HomePage() {
   return (
-    <main className="relative flex min-h-dvh flex-1 flex-col items-center justify-between overflow-hidden">
+    <main className="relative isolate flex min-h-dvh flex-1 flex-col items-center justify-between overflow-hidden">
       {/* Background */}
       <div className="hero-bg fixed inset-0 -z-20" />
 
