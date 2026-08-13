@@ -38,9 +38,6 @@ a {
 @media (orientation: portrait) {
   .hero-bg {
     background-image: url("/bg/scene-tall.png") !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 
