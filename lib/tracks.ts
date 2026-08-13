@@ -14,10 +14,10 @@ export const playlists = {
   "মিতা চ্যাটার্জি" : [
     {
       id: "track-01",
-      title: "গোল্ড প্রিন্টের শাড়ি পরে",
-      artist: "মিতা চ্যাটার্জি",
-      film: "পালকিতে বৌ চলে যায়",
-      year: ২০০২,
+      title: "Gold Print er Saree Pore",
+      artist: "Mita Chatterjer",
+      film: "Palkite Bou Chole Jaay",
+      year: 2002,
       duration: 345,
       videoId: "zoAIg8_5Cto",
     },
