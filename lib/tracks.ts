@@ -11,7 +11,7 @@ export type Track = {
 // Only put videos here that you have the right to use, or that are uploaded
 // by the rights holder with embedding enabled. No tracks are supplied by us.
 export const playlists = {
-  মিতা চ্যাটার্জি : [
+  Mita Chatterjee : [
     {
       id: "track-01",
       title: "গোল্ড প্রিন্টের শাড়ি পরে",
