@@ -5,10 +5,13 @@ import { playlists } from "../lib/tracks";
 export default function HomePage() {
   return (
     <main className="relative flex min-h-dvh flex-1 flex-col items-center justify-between overflow-hidden">
+      {/* Background */}
       <div className="hero-bg fixed inset-0 -z-20" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-transparent to-black/80" />
-      </div>
 
+      {/* Dark cinematic overlay */}
+      <div className="fixed inset-0 -z-10 bg-gradient-to-b from-black/35 via-transparent to-black/80" />
+
+      {/* Grain */}
       <div
         className="fixed inset-0 -z-10 mix-blend-overlay opacity-30"
         aria-hidden="true"
@@ -22,4 +25,3 @@ export default function HomePage() {
       <MusicPlayer playlists={playlists} />
     </main>
   );
-}
