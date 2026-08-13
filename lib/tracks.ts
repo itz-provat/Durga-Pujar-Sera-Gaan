@@ -11,13 +11,13 @@ export type Track = {
 // Only put videos here that you have the right to use, or that are uploaded
 // by the rights holder with embedding enabled. No tracks are supplied by us.
 export const playlists = {
-  Mita Chatterjee : [
+  "মিতা চ্যাটার্জি" : [
     {
       id: "track-01",
-      title: "Gold Print er Saree Pore",
-      artist: "Mita Chatterjee",
-      film: "Palkite Bou Chole Jaay",
-      year: 2002,
+      title: "গোল্ড প্রিন্টের শাড়ি পরে",
+      artist: "মিতা চ্যাটার্জি",
+      film: "পালকিতে বৌ চলে যায়",
+      year: ২০০২,
       duration: 345,
       videoId: "zoAIg8_5Cto",
     },
