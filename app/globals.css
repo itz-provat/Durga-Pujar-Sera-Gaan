@@ -29,7 +29,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url("/bg/scene-wide.png") !important;
+  background-image: url("/scene-wide.png") !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ a {
 
 @media (orientation: portrait) {
   .hero-bg {
-    background-image: url("/bg/scene-tall.png") !important;
+    background-image: url("/scene-tall.png") !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
