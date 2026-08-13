@@ -6,11 +6,10 @@ export default function HomePage() {
   return (
     <main className="relative isolate flex min-h-dvh flex-1 flex-col items-center justify-between overflow-hidden">
       {/* Background */}
-      <div
-         className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
-         style={{
-        backgroundImage: "url('/bg/scene-wide.png')",
-        }}
+      <img
+        src="/bg/scene-wide.png"
+        alt=""
+        className="fixed inset-0 z-0 h-full w-full object-cover"
       />
 
       {/* UI */}
