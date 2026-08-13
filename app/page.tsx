@@ -4,13 +4,15 @@ import { playlists } from "../lib/tracks";
 
 export default function HomePage() {
   return (
-    <main className="relative isolate flex min-h-dvh flex-1 flex-col items-center justify-between overflow-hidden">
-      {/* Background */}
+    <main className="min-h-dvh bg-black">
       <img
         src="/bg/scene-wide.png"
-        alt=""
-        className="fixed inset-0 z-0 h-full w-full object-cover"
+        alt="Background test"
+        className="block h-auto min-h-dvh w-full object-cover"
       />
+    </main>
+  );
+}
 
       {/* UI */}
       <div className="relative z-30">
