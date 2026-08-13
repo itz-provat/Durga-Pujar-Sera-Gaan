@@ -29,12 +29,18 @@ a {
 }
 
 .hero-bg {
-  background-image: url("/bg/scene-wide.png");
+  background-image: url("/bg/scene-wide.png") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (orientation: portrait) {
   .hero-bg {
-    background-image: url("/bg/scene-tall.png");
+    background-image: url("/bg/scene-tall.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
